@@ -6,5 +6,5 @@ end
 
 guard 'bundler' do
   watch('Gemfile')
-  watch('omniauth-baidu.gemspec')
+  watch('omniauth-baidu-social.gemspec')
 end
