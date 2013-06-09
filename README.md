@@ -9,14 +9,14 @@ Read Baidu OAuth2 docs for more details: http://developer.baidu.com/wiki/index.p
 Add to your `Gemfile`:
 
 ```ruby
-gem 'omniauth-baidu'
+gem 'omniauth-baidu-social'
 ```
 
 Then `bundle install`.
 
 Or install it yourself as:
 
-    $ gem install omniauth-baidu
+    $ gem install omniauth-baidu-social
 
 ## Usage
 
