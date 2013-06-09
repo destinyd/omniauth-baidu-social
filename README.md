@@ -9,14 +9,14 @@ Read Baidu OAuth2 docs for more details: http://developer.baidu.com/wiki/index.p
 Add to your `Gemfile`:
 
 ```ruby
-gem 'omniauth-baidu-social'
+gem 'omniauth-baidu'
 ```
 
 Then `bundle install`.
 
 Or install it yourself as:
 
-    $ gem install omniauth-baidu-social
+    $ gem install omniauth-baidu
 
 ## Usage
 
@@ -26,7 +26,7 @@ Here's a quick example, adding the middleware to a Rails app in `config/initiali
 
 ```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :baidu, ENV['WEIBO_KEY'], ENV['WEIBO_SECRET']
+  provider :baidu, ENV['BAIDU_SOCIAL_KEY'], ENV['BAIDU_SOCIAL_SECRET']
 end
 ```
 
